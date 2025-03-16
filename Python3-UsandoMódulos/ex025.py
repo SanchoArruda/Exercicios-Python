@@ -1,3 +1,3 @@
 nome = input('Escreva o seu nome: ')
 
-print('Silva' in nome)
+print('SILVA' in nome.upper())
