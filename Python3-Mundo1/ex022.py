@@ -6,3 +6,4 @@ print('Quantidade de caracteres (sem espaços):', len(v1.replace(" ", "")))
 primeiro_nome = v1.split()[0]
 print('Quantidade de letras no primeiro nome:', len(primeiro_nome))
 
+print(len(v1))
