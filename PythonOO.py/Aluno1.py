@@ -60,3 +60,4 @@ gerenciador.criarEquipe("Projeto B", [aluno3, aluno4])
 gerenciador.criarEquipe("Projeto A", [aluno2, aluno3])  
 
 gerenciador.exibir_equipes()
+

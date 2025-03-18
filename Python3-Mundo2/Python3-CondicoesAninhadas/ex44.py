@@ -14,9 +14,10 @@ elif condicao == 2:
 elif condicao == 3:
     print('Voce não tem desconto em 2x no cartão o valor é: {}'.format(preco))
 elif condicao == 4:
+    parcelas = int(input('Quantas vezes voce vai querer dividir?'))
     juros = (preco * (20/100))
     acs_juros = preco + juros
     print('Seu juros é: {} '.format(juros))
-    print('O valor com o juros é: {} no cartão 3x'.format(acs_juros))
+    print('O valor com o juros é: {} no cartão {}x'.format(acs_juros, parcelas))
 else: 
     print('O numero digitado não corresponde, coloque algum que esta entre ( )')
