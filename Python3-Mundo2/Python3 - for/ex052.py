@@ -1,10 +1,15 @@
-numero = int(input('Escreva um numero e confira se é primo: '))
+for o in range(1, 10):
+    numero = int(input('Escreva um número e confira se é primo: '))
 
-for i in range(2, numero+1):
-    if numero % i == 0 and numero % numero == 0:
-        return True
-    else: 
+    soma = 0
+    for i in range(1, numero + 1):
+        if numero % i == 0:
+            soma += 1
+            
+    if soma == 2:
+        print('Esse número é primo: {}'.format(numero))
+    else:
+        print('Esse número não é primo: {}'.format(numero))
 
-print(numero)
     
    
