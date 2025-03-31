@@ -1,3 +1,8 @@
-for i in range (1, 500, 2):
+soma = 0
+cont = 0
+for i in range (1, 501, 2):
     if i % 3 == 0:
-        print(i)
+        cont += 1
+        soma += i
+
+print('A soma de {} valores solicitados é: {}'.format(cont,soma))
